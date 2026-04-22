@@ -4,11 +4,10 @@
   "description": "AI-powered options trading chatbot with Groq AI, Express, and MongoDB",
   "license": "MIT",
   "author": "Your Name",
-  "type": "module",
   "main": "index.ts",
   "scripts": {
     "dev": "npx ts-node index.ts",
-    "start": "npx ts-node index.ts",
+    "start": "node dist/index.js",
     "seed": "npx ts-node seed-database.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
