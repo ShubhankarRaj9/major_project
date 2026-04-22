@@ -1,3 +1,5 @@
+node_modules/
+build/
+dist/
 .env
-Chat-helper/server/.env
-node_modules
+*.log

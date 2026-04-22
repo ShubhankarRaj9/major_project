@@ -1,14 +1,17 @@
 {
-  "name": "server",
+  "name": "options-trading-chatbot-server",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
+  "description": "AI-powered options trading chatbot with Groq AI, Express, and MongoDB",
+  "license": "MIT",
+  "author": "Your Name",
   "type": "module",
   "main": "index.ts",
   "scripts": {
     "dev": "npx ts-node index.ts",
-    "seed": "npx ts-node seed-database.ts"
+    "start": "npx ts-node index.ts",
+    "seed": "npx ts-node seed-database.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
