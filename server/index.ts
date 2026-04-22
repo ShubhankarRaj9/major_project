@@ -217,7 +217,7 @@ async function startServer() {
     // ===============================
     app.post("/api/chat/:threadId/message", async (req: Request, res: Response) => {
       try {
-        const { threadId } = req.params;
+        const  threadId  = req.params.threadId as string;;
         const { message } = req.body;
 
         if (!message || typeof message !== "string" || message.trim().length === 0) {
