@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React frontend for options trading chatbot",
   "private": true,
-  "proxy": "http://localhost:8080",
+  "proxy": "https://major-project-10-zpri.onrender.com",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
